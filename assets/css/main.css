@@ -10,8 +10,8 @@ html {
 body {
     margin: 0 auto;
     padding: 1cm;
-    max-width: 21.59cm; /* 8.5 inches */
-    max-height: 27.94cm; /* 11 inches */
+    width: 21.59cm; /* 8.5 inches */
+    height: 27.94cm; /* 11 inches */
     box-sizing: border-box;
     font-family: 'Libre Baskerville', serif;
     line-height: 1.75rem;
