@@ -1,6 +1,12 @@
 html {
     background: white;
+    font-size: 12pt;
 }
+
+@media print {
+    html { font-size: 10pt; }
+}
+
 body {
     margin: 0 auto;
     padding: 1cm;
@@ -8,43 +14,56 @@ body {
     max-height: 27.94cm; /* 11 inches */
     box-sizing: border-box;
     font-family: 'Libre Baskerville', serif;
-    font-size: 10pt;
-    line-height: 18pt;
+    line-height: 1.75rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
 }
 
 main {
     display: flex;
 }
 
+main section:first-of-type h3 {
+    margin-top: 0;
+}
+
 aside {
     width: max(148px, 20%);
 }
 
-aside p {
-    font-size: 8pt;
-    line-height: 15pt;
+aside li, aside p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-bottom: 0.5rem;
 }
 
-aside section:first-of-type p {
-    margin: 0;
+aside ul {
+    padding: 0;
 }
 
 article {
     margin-left: 15px;
     border-left: 1px solid black;
     padding-left: 15px;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
 }
 
 h3 {
     background-color: #ddd;
-    padding: 1pt;
+    padding: 0.2rem 0;
+    margin: 1rem 0;
 }
 
-h3, h4 {
+h4 {
     margin-bottom: 0;
 }
 
