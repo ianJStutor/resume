@@ -1,0 +1,61 @@
+html {
+    background: white;
+}
+body {
+    margin: 0 auto;
+    padding: 1cm;
+    max-width: 21.59cm; /* 8.5 inches */
+    max-height: 27.94cm; /* 11 inches */
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10pt;
+    line-height: 18pt;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: max(148px, 20%);
+}
+
+aside p {
+    font-size: 8pt;
+    line-height: 15pt;
+}
+
+aside section:first-of-type p {
+    margin: 0;
+}
+
+article {
+    margin-left: 15px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    background-color: #ddd;
+    padding: 1pt;
+}
+
+h3, h4 {
+    margin-bottom: 0;
+}
+
+h4:first-of-type {
+    margin-top: 0;
+}
+
+p {
+    margin: 0 0 8pt;
+}
+
+ul {
+    margin: 0;
+}
