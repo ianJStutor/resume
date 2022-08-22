@@ -4,7 +4,8 @@ html {
 }
 
 @media print {
-    html { font-size: 10pt; }
+    html { font-size: 11pt; }
+    img { filter: grayscale(1); }
 }
 
 body {
@@ -77,4 +78,8 @@ p {
 
 ul {
     margin: 0;
+}
+
+img {
+    width: 4.25rem;
 }
