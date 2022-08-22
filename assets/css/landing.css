@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     font-family: 'Rubik Dirt', cursive;
     text-align: center;
+    margin: 0;
 }
 
 h1 {
