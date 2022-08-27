@@ -54,6 +54,10 @@ article {
     line-height: 1.4rem;
 }
 
+h1 {
+    text-align: left;
+}
+
 h1, h2 {
     margin: 0;
 }
