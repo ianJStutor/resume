@@ -1,0 +1,90 @@
+html {
+    background: white;
+    font-size: 12pt;
+}
+
+@media print {
+    html { font-size: 11pt; }
+    img { filter: grayscale(1); }
+}
+
+body {
+    margin: 0 auto;
+    padding: 1cm;
+    width: 21.59cm; /* 8.5 inches */
+    height: 27.94cm; /* 11 inches */
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.75rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+main {
+    display: flex;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin-top: 2rem;
+}
+
+main section:first-of-type h3 {
+    margin-top: 0;
+}
+
+aside {
+    width: max(148px, 20%);
+}
+
+aside li, aside p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+aside ul {
+    padding: 0;
+}
+
+article {
+    margin-left: 15px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+
+h1 {
+    text-align: left;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h3 {
+    background-color: #ddd;
+    padding: 0.2rem;
+    margin: 1rem 0;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+h4:first-of-type {
+    margin-top: 0;
+}
+
+p {
+    margin: 0 0 8pt;
+}
+
+ul {
+    margin: 0;
+}
+
+img {
+    width: 3rem;
+}
