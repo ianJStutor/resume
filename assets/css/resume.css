@@ -21,11 +21,19 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     text-align: right;
+    margin-bottom: 1em;
 }
 
 header section {
     font-size: 0.8em;
+    display: flex;
+    gap: 1em;
+}
+
+header section > * {
+    margin: 0;
 }
 
 main {
