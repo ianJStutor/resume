@@ -3,57 +3,110 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Ian Marshall Tech Educator Resume</title>
+        <title>Ian Marshall Technical Writer Resume</title>
         <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png">
         <link rel="manifest" href="../assets/img/favicon/site.webmanifest">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../assets/css/resume.css" />
+        <style>
+html {
+    background: white;
+    font-size: 12pt;
+}
+
+@media print {
+    /* html { font-size: 11pt; } */
+    img { filter: grayscale(1); }
+}
+
+body {
+    margin: 0 auto;
+    padding: 1cm;
+    width: 21.59cm; /* 8.5 inches */
+    height: 27.94cm; /* 11 inches */
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.75rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 0;
+}
+
+main > section {
+    margin-block-end: 1.5em;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+}
+
+h2 {
+    margin-block-end: 0;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    font-variant: small-caps;
+}
+
+h3 {
+    margin-block-start: 0.25em;
+    margin-block-end: 0;
+    font-size: 1.1em;
+}
+
+p {
+    margin-block: 0;
+}
+
+h1 + p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+ul, dl {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+dt {
+    font-weight: bold;
+    display: inline;
+}
+
+dd {
+    margin: 0;
+    display: inline;
+}
+        </style>
     </head>
     <body>
         <header>
-            <h1>Ian Marshall</h1>
-            <section>
-                <p>ian.js.tutor@gmail.com</p>
-                <a href="https://ianjstutor.github.io/ian-marshall/">https://ianjstutor.github.io/ian-marshall/</a>
-            </section>
+            <hgroup>
+                <h1>Ian Marshall</h1>
+                <p>Technical Writer and Editor</p>
+            </hgroup>
+            <nav><ul>
+                <li>ian.js.tutor@gmail.com</li>
+                <li><a href="https://ianjstutor.github.io/ian-marshall/">https://ianjstutor.github.io/ian-marshall/</a></li>
+                <li><a href="https://www.linkedin.com/in/tw-ian-marshall">https://www.linkedin.com/in/tw-ian-marshall</a></li>
+            </ul></nav>
         </header>
-        <section>
-            <dl>
-                <dt>Technical Writer and Editor</dt>
-                <dd>Specializing in technical education, training, curriculum development,<br>instructional design, and content creation</dd>
-            </dl>
-        </section>
         <main>
-            <!-- <aside>
+            <section>
+                <h2>Summary</h2>
+                <p>Meticulous technical writer with a proven track record and excellent collaboration skills. Brings 20+ years' experience in teaching and computer science as well as a master's degree in information technology. Specialties include curriculum development, instructional design, training, and student advocacy.</p>
+            </section>
+            <section>
+                <h2>Experience</h2>
                 <section>
-                    <h3>Highlights</h3>
-                    <ul>
-                        <li>30+ years teaching in classrooms, colleges, workshops, online, and one-on-one</li>
-                        <li>Middle-school age to adult with diverse cultures, backgrounds, and learning styles</li>
-                        <li>Interactive/participative and learner-centered methods implementing discussion, game theory, project-based learning, role-playing, visual, and multimedia</li>
-                        <li>Practiced curriculum design principles include iterative collaboration, backward design, action mapping, project-based learning, gamification</li>
-                        <li>Excellence in simplifying complex ideas, clear written and oral communications</li>
-                        <li>Stellar track record in delivering fun, engaging content to promote student interest and obtain learning objectives</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Education</h3>
-                    <p><strong>MS, Information Technology</strong><br />Southern New Hampshire University, 2014, 4.0 GPA</p>
-                    <p><strong>BFA, Drama</strong><br />New York University, 1992</p>
-                </section>
-            </aside> -->
-            <article>
-                <section>
-                    <h3>Summary</h3>
-                    <p>Meticulous technical writer with a proven track record and excellent collaboration skills. Brings lifelong experience in teaching and computer science as well as a master's degree in information technology.</p>
-                </section>
-                <section>
-                    <h3>Experience</h3>
-                    <h4>Training specialist, web development specialist:<br>2022&ndash;present, Advanced Systems Group, LLC</h4>
+                    <hgroup>
+                        <h3>Technical writer, training specialist, web development specialist</h3>
+                        <p>2022&ndash;present, Advanced Systems Group, LLC</p>
+                    </hgroup>
                     <ul>
                         <li>Collaborated with SMEs on content, conducted peer reviews, and wrote custom JavaScript code to help learners improve their skills with modern web technologies, beginner through advanced, in areas such as code debugging, testing, and deployment; web accessibility, optimization, and authentication; database design and querying; and application development</li>
                         <li>Devised lesson plans, wrote educational content for Google's web.dev site, including articles, labs, quizzes, and video scripts</li>
@@ -62,26 +115,31 @@
                         <li>Performed QA testing for new TensorFlow certification test</li>
                         <li>Recorded screen-capture instruction for Google training videos on Coursera</li>
                     </ul>
-                    <h4>Training specialist, CS and web development specialist:<br>2015&ndash;present, Wyzant.com</h4>
-                    <ul>
-                        <li><a href="https://www.wyzant.com/match/tutor/85959536">https://www.wyzant.com/match/tutor/85959536</a></li>
-                        <li>2400+ students, 6200+ hours, 5.0 student rating</li>
-                        <li>Provided 1:1 instruction and support for adults and children with diverse goals, needs, and learning styles</li>
-                        <li>Devised curricula and lesson plans for individuals and groups</li>
-                        <li>Subject matter included basic-to-advanced JavaScript, Node and full-stack web app development, web dev boot camp projects, beginner React/Next, HTML/CSS, UI/UX, game development and generative art with JavaScript, best practices, computer science principles</li>
-                    </ul>
                 </section>
                 <section>
-                    <h3>Additional Work History</h3>
+                    <hgroup>
+                        <h3>Training specialist, curriculum developer</h3>
+                        <p>2015&ndash;present, Wyzant</p>
+                    </hgroup>
                     <ul>
-                        <li>Freelance web designer and JavaScript UI developer, 10 years</li>
-                        <li>Lead designer, event manager, American Maze Company, 10 years</li>
-                        <li>Owner, operations director, client account manager, project manager, marketing and publishing company United Stages, 10 years</li>
-                        <li>Homeschool course designer, lesson planner, pod instructor, classroom and remote, 10 years</li>
-                        <li>Acting teacher, classroom and coaching; faculty, artistic council member, HB Studio in NYC, 15 years</li>                        
+                        <li>Devised curricula, lesson plans, assessments, 1:1 instruction, and support for adults and children with diverse goals, needs, and learning styles</li>
+                        <li>5.0 student rating</li>
                     </ul>
                 </section>
-            </article>
+            </section>
+            <section>
+                <h2>Skills &amp; Subject Matter Expertise</h2>
+                <dl>
+                    <dt>Web design and development</dt>
+                    <dd>HTML/CSS, JavaScript, React, Node, database design, SQL, NoSQL</dd><br>
+                    <dt>Collaboration</dt>
+                    <dd>Git, Github, markdown, yaml</dd><br>
+                    <dt>Computer Science</dt>
+                    <dd>App development, software engineering, object-oriented and functional paradigms, algorithmic thinking</dd><br>
+                    <dt>Pedagogy</dt>
+                    <dd>Iterative collaboration, backward design, action mapping, project-based learning, role-playing, gamification</dd>
+                </dl>
+            </section>
         </main>
     </body>
 </html>
