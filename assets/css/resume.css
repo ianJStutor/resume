@@ -49,6 +49,9 @@ main section:first-of-type h3 {
 
 aside {
     width: max(148px, 20%);
+    margin-right: 15px;
+    border-right: 1px solid black;
+    padding-right: 15px;
 }
 
 aside li, aside p {
@@ -59,12 +62,6 @@ aside li, aside p {
 
 aside ul {
     padding: 0;
-}
-
-article {
-    margin-left: 15px;
-    border-left: 1px solid black;
-    padding-left: 15px;
 }
 
 dl {
